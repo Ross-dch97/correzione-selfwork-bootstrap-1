@@ -1,0 +1,39 @@
+nav{
+    z-index:2;
+}
+
+h1{
+    letter-spacing: 10px;
+    margin-top: 50vh;
+    font-size: 4rem;
+}
+
+header{
+    background: linear-gradient(transparent,red);
+    background-size: cover;
+    background-position: center;
+}
+
+
+h2{
+    margin-top: 10%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-custom{
+   height: 300px; 
+}
+
+@media screen and(max-widht:670px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    .list-footer{
+        justify-content: start!important;
+    }
+    
+}
